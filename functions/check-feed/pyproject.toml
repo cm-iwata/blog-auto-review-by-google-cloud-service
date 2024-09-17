@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "blog-feed"
+version = "0.1.0"
+description = ""
+authors = ["Tomoya Iwata <iwata.tomoya@classmethod.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+functions-framework = "^3.8.1"
+google-cloud-pubsub = "^2.23.1"
+feedparser = "^6.0.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

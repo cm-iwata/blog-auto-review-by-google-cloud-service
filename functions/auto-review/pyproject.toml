@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "auto-review"
+version = "0.1.0"
+description = ""
+authors = ["Tomoya Iwata <iwata.tomoya@classmethod.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+functions-framework = "^3.8.1"
+slack-sdk = "^3.32.0"
+vertexai = "^1.66.0"
+requests = "^2.32.3"
+markdownify = "^0.13.1"
+google-cloud-secret-manager = "^2.20.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
